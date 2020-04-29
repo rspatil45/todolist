@@ -5,7 +5,7 @@ const lodash = require('lodash');
 const mongoose = require('mongoose');
 const date = require('./date.js');
 
-mongoose.connect("mongodb+srv://admin:rspatil45@mongoserver-caqwf.mongodb.net/todoList", {
+mongoose.connect("add mongodb atlas url/todoList", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
   useFindAndModify: false
